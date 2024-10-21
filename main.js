@@ -10,8 +10,9 @@ $(document).ready(function() {
             $(this).addClass("puff-bubble");
         });
         $("#glow").remove();
-        txt.hide().html("i wish you happy birthday").delay(750).fadeIn(300);
+        txt.hide().html("Make a wish... and blow out the candle").delay(750).fadeIn(300);
         $("#candle").animate(
+        txt.hide().html("i wish you happy birthday").delay(750).fadeIn(300);
             {
             opacity: ".5"
             },
